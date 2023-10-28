@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="aa">
+    <h1 class="are">Square Feet To Square Yard Converter</h1>
+
+    <form onsubmit="doMultiply(event)" class="are-">
+        
+        <b>User Input</b></Input>: <input id="firstNum" type="number" required step="0.1">
+        <br>
+    </form>
+    <form onsubmit="doMultiply(event)">
+        <button class="area">Sq feet</button</form>
+    
+</div>
+
+    <h1 id="resultWindow"></h1>
+
+    <script>
+        console.log("hello es6");
+
+        function doMultiply(event) {
+
+            event.preventDefault();
+            let firstNumber = document.querySelector("#firstNum").value;
+            let secondNumber = 9
+
+            console.log(firstNumber); // 5
+            console.log(secondNumber); // 6
+
+            let result = Number(firstNumber) * (9);
+
+            // es6 string templates
+            let message  = `the Sq feet of ${firstNumber} Sq Yard is ${result}sq ft`
+
+            document.querySelector("#resultWindow").innerHTML = message 
+
+        }
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(171, 224, 109);
+    font-style: italic;
+}
+.are{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px; 
+    align-items: center;
+}
+.are-{
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 22%;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.are- input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    width: 200px;
+    height: 30px;
+}
+.area{
+    margin-left: 620px;
+    margin-top: 50px;
+
+}
+
